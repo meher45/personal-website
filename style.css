@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#side-line {
+    border-left: 7px solid;
+    background-image: -webkit-linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.font-color {
+    color: brown;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(63, 87, 204);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 800;
+    background-image: -webkit-linear-gradient (white gray);
+}
+
+.top-banner {
+    background-image: url(images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+
+}
+
+.mission-area {
+    text-align: center;
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+}
+
+.mission-area img {
+    width: 30%;
+}
+
+section {
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.mission-item {
+    box-shadow: 10px 10px 5px cyan;
+    margin: left 5%;
+    margin-right: 5%;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+
+
+}
